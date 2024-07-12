@@ -25,6 +25,8 @@ class Loader:
         self.parent_dir=parent_dir
         self.text_splitter=text_splitter
         self.embedding=embedding
+        if (not os.path.exists(f"./{self.parent_dir}")):
+            os.mkdir(f"./{self.parent_dir}")
         self.curr_files = set([file for file in os.listdir(f"./{self.parent_dir}") if f".{self.parent_dir}" in file])
         print(f"Current files: {self.curr_files}")
         self.new_Docs=self.new_docs()

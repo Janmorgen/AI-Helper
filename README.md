@@ -4,6 +4,7 @@ This is a project I made for recreational use only, it should not be relied on t
 ## Usage
 To use the system you need Ollama installed on your local computer (this can be changed by modifying the agent IP address)
 - `# apt install Ollama`
+- (Optional) `ollama run llama3` 
 - `pip install -r requirements.txt`
-- (Optional) add documents to /html, /pdf, /code to embed them to chromaDB, allowing the AI to access local data
+- (Optional) Add documents to /html, /pdf, /code to embed them to chromaDB, allowing the AI to access local data
 - `python main.py`

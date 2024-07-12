@@ -36,7 +36,7 @@ class Retriever:
                             )
                         )
         webResources= WebPageLoader(self.embedding,"code",
-                                    ["www.tweaked.cc/","www.minecraftitemids.com"], 
+                                    [],# ["www.tweaked.cc/","www.minecraftitemids.com"], 
                                     CharacterTextSplitter(
                                         separator="title|\\n",
                                         is_separator_regex=True,
