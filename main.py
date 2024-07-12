@@ -10,7 +10,7 @@ from langchain_community.embeddings.sentence_transformer import (
 from langchain_core.prompts import PromptTemplate, BasePromptTemplate, ChatPromptTemplate
 
 from langchain.chains.combine_documents import create_stuff_documents_chain
-import pyttsx3
+# import pyttsx3
 
 import random
 
