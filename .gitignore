@@ -1,0 +1,8 @@
+/pdf/*
+/code/*
+/html/*
+/vectorstore/*
+*.ipynb
+*.zip
+__pycache__
+.vscode
