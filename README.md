@@ -1,6 +1,8 @@
 ## NOTE
 This is a project I made for recreational use only, it should not be relied on to produce errorless information. As such the output of the program should not be relied on for any important/critical usecases, especially if it affects any other users.
 
+This project also uses JSONpickle, which when misused can perform arbiturary code execution on your system, use at your own risk...
+
 ## Information
 This "AI Helper" gathers information from documents provided in the code, pdf, and html folders and uses that information to answer user questions. I have also implemented a rudimentary form of chat history, so previous reponses can be referred to by the user.
 
